@@ -1,0 +1,67 @@
+
+.o-main{
+    padding-top: 10%;
+
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloPrincipal{
+    padding-left: 11%;  
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--azul900);
+}
+
+
+.container-facilfree {
+    display: flex;   
+    justify-content: end; /* Espaçamento entre os itens */
+    background-image: url('../Imagens/appFacilfree.svg');
+    background-repeat: no-repeat;
+    height: 35vw; /* Altura do elemento */
+    width: 100vw;
+ 
+    background-position: center 0 ;
+    
+}
+
+
+
+.container-info {
+    padding: 6rem 22rem 0 0 ; 
+    max-width: 400px; /* Ajuste conforme necessário */
+}
+
+.titulo-principal{
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--azul900);
+}
+
+
+.texto-descritivo{
+    padding-bottom: 3rem;
+}
+
+.botao{
+    display: inline-block;
+    background-color: var(--rosa500);
+    background: var(--rosadegrade);
+    color: var(--branco);
+    padding: 1rem 3rem;
+    border-radius: 10px; /* Raio das bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+

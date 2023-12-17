@@ -1,0 +1,358 @@
+
+
+.header-facilfree{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-estudodecaso{
+  display: flex;   
+    justify-content: end; /* Espaçamento entre os itens */
+    background-image: url('../Imagens/appFacilfree.svg');
+    background-repeat: no-repeat;
+    height: 65vh; /* Altura do elemento */
+    width: 100%; 
+    background-position: center 0 ;
+}
+
+.texto-estudodecaso{
+  color: var(--rosa500);
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.titulo-FF{
+    font-size: 2rem;
+
+}
+
+.visãogeral{
+  display: flex;
+  
+  align-self: center;
+  align-items: start;
+  
+  margin: 1rem 15rem 2rem 15rem; 
+  
+}
+
+
+.paragrafo-largura{
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+.dados-projeto{
+  width: 100%;
+}
+
+.paragrafo_destaque{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--rosa500);
+}
+
+.paragrafo_destaque{
+  padding: 0;
+}
+.paragrafo-lista {
+  padding-bottom: 1rem;
+}
+
+/* Main */
+.container-principal{
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 15rem;
+}
+
+
+.container-desafio{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.imagem-objetivo{
+  width: 45%;
+}
+
+.titulo{
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--azul800); 
+  padding-bottom: 3rem; 
+}
+
+.container-icone_mais_titulo{
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
+  padding: 6rem 0 3rem 0;
+  
+}
+
+.titulo_icone{
+  font-size: 2rem;
+  color: var(--azul800);
+}
+
+.titulo_h4{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--azul800); 
+  padding: 3rem 0 1rem 0;
+}
+
+.tabela{
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.proto-persona{
+  width: 60%;
+  margin: 2rem 0 6rem 20%;
+  border-left: 4px solid var(--azul800);
+  padding-left: 2%;
+  font-weight: 300;
+ 
+}
+
+/* Mapa de empatia */
+
+.conatiner_Mapa_de_empatia{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 6rem;
+  gap: 3rem;
+}
+
+.titulo-mapa_empatia{
+  padding-top: 4rem;
+}
+
+
+.Mapa_de_empatia{
+  width: 70%;
+
+}
+
+/*Aspecto problemático*/
+
+.aspecto-problematico{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 80%;
+}
+
+.container-numero{
+  padding: 3rem ;    
+  width: 50%;
+  height: auto;
+  background-color: var(--surpeficie_azul);
+}
+
+.cabecalho_numero{
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 2rem;  
+  
+}
+.icone-numero{
+  width: 25%;
+  padding-bottom: 1rem;
+}
+
+
+.cor-Aspecto_problematico{
+  color: var(--azul800);
+}
+
+.texto_300{
+  font-weight: 300; 
+}
+
+/*Jornada do Usuário*/
+.Jornada_Usuario{
+  padding: 6rem 0 0 0;
+}
+
+
+/*Método Crazy Eights | Storyboards*/
+
+.container-metodos_desenhos{
+  text-align: center;
+  gap: 2rem;
+}
+
+.Metodo_Crazy_Eights{
+  width: 40%;  
+}
+
+.Storyboards{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 5rem 2rem 2rem 2rem;
+  background-color: var(--surpeficie_azul);
+  text-align: start;
+  gap: 4rem;
+  
+}
+
+.titulo_storyboard{
+ padding-bottom: 1rem;
+ font-weight: 500;
+}
+.texto_storyboard{
+  font-size: 1rem;
+  height: 10vh;
+}
+
+.storyboard_close-up, .storyboard_visão-geral{
+  width: 28vw;
+}
+
+/* Iniciando o Design | Arquitetura da Informação (AI) */
+
+.textoSitemap{
+  padding-bottom: 2rem;
+}
+
+.imagemIA{
+  background-image: url("../Imagens/imagemIA.svg");
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 100%;
+  text-align: end;
+  padding-right: 20%;
+  padding-top: 60%;
+  grid-area: 1.5rem;
+}
+
+.texto_ImagemSitemap{
+  font-weight: 500;
+  color: var(--rosa500);
+}
+
+/* Wireframes de papel */
+
+.texto-wireframe_papel{
+padding-bottom: 3rem;
+}
+
+.conatiner-imagem-wireframe_papel{
+  text-align: center;  
+}
+
+.conatiner-imagem-Lo-Fi{
+  padding-top: 3rem;
+}
+
+.imagem-wireframe_papel{
+  width: 60%;
+}
+
+.imagem-interface-registro{
+  padding: 6rem 0;
+}
+
+.prototipagem-Lo-Fi{
+  background-image: url("../Imagens/prototipagem-Lo-Fi.svg");
+  background-repeat: no-repeat;
+  height: 20vh;   
+  text-align: end;
+  padding-top: 45%;
+  padding-right: 5%;
+}
+
+.prototipagem-imagem{
+  font-weight: 500;
+  color: var(--rosa500);
+}
+
+/* Guia de estilo */
+.containerGuia{
+  text-align: center;  
+}
+
+.conjuntoBotaoCTA{
+  width: 60%;
+  padding-left: 12rem;
+  
+  
+}
+
+.textos_GuiaEstilo{
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.texto-paragrafoGuia{
+  padding-bottom: 2rem;
+}
+
+.textosConjuntoIcones{
+  padding: 6rem 15%;
+  text-align: center;
+ 
+}
+.TextoDestaque-Guia{
+  padding: 2rem 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.imagemConjuntoDeIcones{
+  width: 40%;
+  padding-bottom: 6rem;
+ 
+}
+.ImagemLogoFacilFree{
+  width: 40%;
+  padding-bottom: 6rem;
+}
+
+
+/* Hi-Fi */
+.Hi-Fi {
+  text-align: center;
+}
+
+.prototipagemHiFi{
+  padding: 6rem 0;
+  width: 80%;
+}
+
+.textoHiFi{
+  text-align: left;
+}
+
+/* Agradecimento */
+
+.containerAgradecimento{
+  text-align: center;
+  padding: 0 6rem ;
+ 
+  
+}
+.tituloAgradecimento{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 3rem  0; 
+}
+
+.textoAgradecimento{  
+  padding: 1rem 0 .5rem 0;
+}
+
+.IconeAgradecimento{
+  padding: 4rem 0 6rem 0;
+}

@@ -1,0 +1,95 @@
+
+.o-header{
+    display: flex;
+    justify-content: center;
+    background-size: auto;  
+    
+}
+
+
+.cabecalho_sobre{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    
+}
+
+.texto-cabecalho{
+    margin-left: 15%;
+        
+}
+.paragrafo-destaque{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+.imagem_tarcila{
+    width: auto;
+    height: 80vh;
+}
+
+.paragrafo-welcome{
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+/* Nome e profissão */
+
+.logotipo{
+   
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+.nome{
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    padding-bottom: 2rem;
+    color: var(--rosa500);
+    
+}
+
+.profissao{
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 2px;
+    padding-bottom: 10px;   
+    
+}
+
+/* Texto Destaque */
+
+.texto-sobremim{
+    padding-right: 8rem;
+}
+
+.paragrafo_destaque{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    padding-bottom: 2rem;
+}
+
+.texto-destaque{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.whatsapp-btn{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    width: 40%;
+}

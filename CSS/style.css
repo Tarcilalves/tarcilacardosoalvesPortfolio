@@ -1,0 +1,117 @@
+@import url("../CSS/nav.css");
+@import url("../CSS/header.css");
+@import url("../CSS/main.css");
+@import url("../CSS/footer.css");
+@import url("../CSS/main_trabalhoPrincipal.css");
+@import url("../projetoFacilFree/facilfree.css");
+
+
+
+:root{
+    --surpeficie_azul: #E7EEF2;
+    --superficie_cinza200: #EBEEF0;
+    --superficie_cinza100: #F9F9F9;
+
+    --rosa500: #C73E98;
+
+    --branco: #ffffff;
+
+    --azul400: #8CC1DD ;
+    --azul500: #70AFD1;
+    --azul600: #4B8DB1;
+    --azul700: #2C6B8D;
+    --azul800: #1B5778;
+    --azul900: #103F58;
+
+    --preto:   #000000;
+    --gray800: #0D0C0C;
+    --gray700: #131414;
+    --gray600: #323436;
+    --gray500: #606365;
+    --gray400: #92989C;
+    --gray300: #C2C8CD;
+
+
+    --azuldegrade: linear-gradient(180deg, #DDEEF0 0%, #6FADCD 100%);
+    --rosadegrade: linear-gradient(180deg, #B93B8E 0%, #C73E98 56.25%, #90266C 100%);
+
+}
+
+body{
+
+    display: grid;
+    grid-template-areas:
+    "nav nav nav" 
+    "header header header"
+    "main main main"
+    "footer footer footer" ;
+
+    grid-template-columns: 1fr;
+
+
+
+    font-family: "Roboto";
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--gray600);
+    line-height: 1.5rem;
+    
+
+}
+
+.o-nav{
+    grid-area: nav;
+    background-color: var(--superficie_cinza100);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.o-header{
+    grid-area: header;
+    background-color: var(--surpeficie_azul); 
+    padding: 6rem 0 2rem 0 ;
+
+}
+
+
+
+.o-main{
+    grid-area: main;
+    
+}
+
+.o-main_manifesto{
+    grid-area: main;
+    background-color: var(--superficie_cinza200);    
+}
+
+
+
+.o-footer{
+    grid-area: footer;
+    padding-top: 6rem;
+    padding-bottom: .5rem;
+    background-color: var(--superficie_cinza200);
+    
+}
+
+/* Página Trabalho principal - Header  */
+
+.header-pagina_trabalho{
+    background-color: var(--branco);
+    padding: 0;
+    
+}
+
+.header-facilfree{
+    padding: 8rem 0 0 0;
+    
+}
+
+

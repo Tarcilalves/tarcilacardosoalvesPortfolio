@@ -1,0 +1,209 @@
+.sobre_mim_mais{
+    justify-content: center;
+    margin: 0 15% 2rem 15%;
+    
+    font-weight: 300;
+}
+
+.paragrafo{   
+    font-size: 1.25rem;
+    padding: 0 0 6rem 0;
+}
+
+
+.texto_citacao{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nome_do_citado {
+    text-align: right;
+    padding-right: 12rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    
+}
+
+
+.aspas_esquerda{
+    width: 5%;
+    opacity: 25%;
+    padding-left: 15%;
+   
+}
+
+.aspas_direita{
+    padding-left: 80%;
+    width: 5%;
+    opacity: 25%;
+    
+}
+
+
+
+/* Conatiner pontos Sobre */
+
+.container-pontos_sobre{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+
+.caixa_sobre{
+    margin-right: 2rem;    
+    width: 50vh;
+    height: auto;
+    background-color: var(--surpeficie_azul);
+}
+
+.cabecalho_pontos-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;  
+}
+
+.titulo-h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.icone{
+    width: 20%;
+    padding-right: 1rem;
+}
+
+.texto_pontosobre{
+    padding: 1rem;
+    font-weight: 300;
+}
+
+/* Manisfeto*/
+
+.buscarId{
+    opacity: 0%;
+
+}
+
+.container_manifesto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 8rem;
+    background-color: var(--surpeficie_azul);
+}
+
+
+.titulo_principal{
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--azul900);
+}
+
+.titulo-manifesto{
+    color: var(--azul700);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container_caixa-manifesto{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.estudar{   
+    width: 50vh;
+    height: auto;
+}
+
+.cabecalho_manifesto{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem 1rem;
+    
+        
+    
+}
+
+
+.texto_manifesto{
+    padding: 1rem;
+    font-weight: 400;
+    
+}
+
+
+/*Habilidades */
+
+.margem{
+    margin: 5rem 0 2rem 10%;
+}
+
+.titulo-habilidades{
+    padding-left: 5rem;
+}
+
+.habilidades_SubTitulo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--azul700);
+    padding-bottom: 2rem;
+    
+}
+.container_UX{
+  display: flex;
+
+   
+}
+
+.lista-habilidades{
+    
+    list-style-type: disc;
+    padding-left: 6rem;
+        
+}
+
+.lista{
+    padding: 0;
+    font-weight: 400;
+}
+
+
+
+/* Programa | Voluntariado */
+
+
+.container_programa-voluntariado{
+    display: flex;
+    gap: 2rem;
+    margin-left: 5%;
+    padding-bottom: 5rem;
+    
+    
+}
+
+.programa-titulo{
+    padding-bottom: 4rem;
+}
+
+
+.imagem-texto{
+    
+    border: 1px solid var(--surpeficie_azul);
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+
+

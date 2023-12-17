@@ -1,0 +1,104 @@
+.geral-rodape{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section Entre em contato */
+
+.titulo-Contato {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--rosa500);
+}
+
+.container-email{    
+    padding-bottom: 5rem;
+    text-align: center;    
+}
+
+.icone-email{
+    width: 6%;     
+ }
+
+ .link-email{
+    font-size: 1.5rem;    
+    font-weight: 500;    
+}
+
+.texto-email{
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+
+/* section Vamos nos conectar */
+
+.container-conectar{    
+    text-align: center;
+}
+
+
+.container-redessociais{
+    display: flex;
+    width: 25vw;
+
+}
+
+
+.Titulo-Conectar{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container-icone{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.a, .link-redesocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icone-redesocial{
+    width: 25%;
+    padding-bottom: .5rem;    
+}
+
+
+.texto-icone{
+    font-size: 1rem;
+}
+
+
+.icone-whastapp{
+    width: 15%;
+    
+}
+
+/* copyright */
+
+.container-copyright{
+    display: flex;
+    padding: 2rem 0 0 0;
+    justify-content: center;
+    color: var();
+    
+}
+
+.icone-copyright{
+    width: 20px;
+    padding-right: .5rem;
+    opacity: 60%;
+
+}
+
+.texto-copyright{
+    font-weight: 500;
+}
+
